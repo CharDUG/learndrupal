@@ -1,4 +1,4 @@
-; Packaging information for learning_drupal_training_company
+; Packaging information for learn_drupal
 name = "Learning Drupal Training Company"
 description = "CharDUG's Learn to Build a Website with Drupal class website"
 core = "7.x"
@@ -76,4 +76,3 @@ variables[user_picture_file_size] = '800'
 variables[user_picture_style] = 'thumbnail'
 variables[user_register] = 2
 
-files[] = learn_drupal.profile

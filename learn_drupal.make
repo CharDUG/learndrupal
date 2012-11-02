@@ -1,6 +1,6 @@
 ; Learning Drupal Training Company make file
-core = 7.x
-api = 2
+core = "7.x"
+api = "2"
 
 ; Modules
 projects[ctools][version] = "1.2"
