@@ -7,7 +7,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function learning_drupal_training_company_install() {
+function learning_drupal_install() {
   // Enable some learning_drupal_training_company blocks.
   $admin_theme = 'seven';
   // disable all themes
