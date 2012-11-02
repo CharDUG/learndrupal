@@ -1,7 +1,6 @@
 ; Packaging information for learning_drupal_training_company
 name = "Learning Drupal Training Company"
-description = "CharDUG's "Learn to Build a Website with Drupal" class website"
-exclusive = "1"
+description = "CharDUG's Learn to Build a Website with Drupal class website"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -41,6 +40,7 @@ dependencies[] = update
 dependencies[] = user
 ; Other
 dependencies[] = insert
+dependencies[] = libraries
 dependencies[] = pathauto
 dependencies[] = token
 ; Statistics

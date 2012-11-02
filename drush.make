@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this out in to use on drupal.org
-projects[drupal][version] = "7.16"
+projects[drupal][version] = "7.x"
 
 ; Modules
 projects[ctools][version] = "1.2"
@@ -13,6 +13,9 @@ projects[profiler_builder][subdir] = "contrib"
 
 projects[insert][version] = "1.2"
 projects[insert][subdir] = "contrib"
+
+projects[libraries][version] = "2.0"
+projects[libraries][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
@@ -35,3 +38,11 @@ projects[webform][subdir] = "contrib"
 projects[responsive_blog][type] = "theme"
 projects[responsive_blog][version] = "1.4"
 projects[responsive_blog][subdir] = "contrib"
+
+; Libraries
+libraries[profiler][directory_name] = "profiler"
+libraries[profiler][type] = "library"
+libraries[profiler][destination] = "libraries"
+libraries[profiler][download][type] = "get"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz"
+
