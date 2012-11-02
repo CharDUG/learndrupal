@@ -14,6 +14,6 @@ function system_form_install_configure_form_alter(&$form, $form_state) {
 function system_form_install_select_profile_form_alter(&$form, $form_state) {
   // select learning_drupal_training_company install profile by default
   foreach ($form['profile'] as $key => $element) {
-    $form['profile'][$key]['#value'] = 'learning_drupal_training_company';
+    $form['profile'][$key]['#value'] = 'learning_drupal';
   }
 }
