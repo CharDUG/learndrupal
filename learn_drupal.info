@@ -51,6 +51,10 @@ dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
 
+; Themes
+; ------
+theme = responsive_blog
+
 ; ----------
 ; Variables
 ; ----------
@@ -76,3 +80,4 @@ variables[user_picture_file_size] = '800'
 variables[user_picture_style] = 'thumbnail'
 variables[user_register] = 2
 
+files[] = learn_drupal.profile
