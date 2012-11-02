@@ -9,6 +9,7 @@
  */
 function learn_drupal_install() {
   // Enable some learning_drupal_training_company blocks.
+  $default_theme = 'responsive_blog';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')

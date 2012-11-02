@@ -51,10 +51,6 @@ dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
 
-; Themes
-; ------
-theme = responsive_blog
-
 ; ----------
 ; Variables
 ; ----------
