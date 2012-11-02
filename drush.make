@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this out in to use on drupal.org
-projects[drupal][version] = "7.x"
+projects[drupal][version] = "7.16"
 
 ; Modules
 projects[ctools][version] = "1.2"
